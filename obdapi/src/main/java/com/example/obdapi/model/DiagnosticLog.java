@@ -8,7 +8,7 @@ public class DiagnosticLog { //
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String vehicleVin;
+    private String vehicleVin; //
     private String rawData;
 
     // Getters and setters
