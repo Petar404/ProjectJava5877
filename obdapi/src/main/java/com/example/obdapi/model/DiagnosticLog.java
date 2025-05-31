@@ -1,4 +1,4 @@
-package com.example.obdapi.model;
+package com.example.obdapi.model; //
 
 import jakarta.persistence.*;
 
@@ -21,3 +21,5 @@ public class DiagnosticLog {
     public String getRawData() { return rawData; }
     public void setRawData(String rawData) { this.rawData = rawData; }
 }
+
+
