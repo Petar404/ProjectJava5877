@@ -3,7 +3,7 @@ package com.example.obdapi.model; //
 import jakarta.persistence.*;
 
 @Entity
-public class DiagnosticLog {
+public class DiagnosticLog { //
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
